@@ -43,9 +43,9 @@ body {
 
 /* Right-aligned link */
 
-.navbar a.right {
+/*.navbar a.right {
     float: right;
-}
+}*/
 
 /* Change color on hover */
 
@@ -53,6 +53,11 @@ body {
     background-color: #ddd;
     color: black;
     transition: background-color 0.6s ease;
+}
+
+.navbar a.active {
+    background-color: #ddd;
+    color: black;
 }
 
 /* Column container */
@@ -66,41 +71,11 @@ body {
     flex-wrap: wrap;
 }
 
-/* Create two unequal columns that sits next to each other */
-
-/* Sidebar/left column */
-
-.side {
-    -ms-flex: 30%;
-    /* IE10 */
-    flex: 30%;
-    background-color: #f1f1f1;
-    padding: 20px;
-}
-
-/* Main column */
-
-.main {
-    -ms-flex: 70%;
-    /* IE10 */
-    flex: 70%;
-    background-color: white;
-    padding: 20px;
-}
-
-/* Fake image, just for this example */
-
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-}
-
 /* Footer */
 
 .footer {
     padding: 20px;
-    text-align: center;
+    text-align: right;
     color: white;
     background: rgb(29, 28, 28);
 }
@@ -243,7 +218,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-    width: 700px;
+    width: 50vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
@@ -282,11 +257,86 @@ body {
     animation-duration: 1s
 }
 
-.topnav input[type=text] {
+#yt {
+    color: red;
+    font-size: 20px;
+    float: left;
+}
+
+#twitter {
+    color: rgb(0, 162, 255);
+    font-size: 20px;
+    float: left;
+    margin-left: 5px;
+}
+
+#github {
+    color: black;
+    font-size: 20px;
+    float: left;
+    margin-left: 5px;
+}
+
+#twitch {
+    color: rgb(183, 2, 255);
+    font-size: 20px;
+    float: left;
+    margin-left: 5px;
+}
+
+#steam {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    float: left;
+    margin-left: 5px;
+}
+
+#reddit {
+    color: rgb(255, 81, 0);
+    font-size: 20px;
+    float: left;
+    margin-left: 5px;
+}
+
+.navbar .search-container {
     float: right;
+}
+
+.navbar input[type=text] {
     padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
     border: none;
+}
+
+.navbar .search-container button {
+    float: right;
+    padding: 6px 10px;
     margin-top: 8px;
     margin-right: 16px;
+    background: #ddd;
     font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar .search-container button:hover {
+    background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar .search-container {
+        float: none;
+    }
+    .navbar a, .navbar input[type=text], .navbar .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .navbar input[type=text] {
+        border: 1px solid #ccc;
+    }
 }
