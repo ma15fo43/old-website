@@ -90,10 +90,14 @@ body {
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
     .navbar a {
         float: none;
         width: 100%;
+    }
+
+    .search-container {
+        display: none;
     }
 }
 
@@ -300,7 +304,10 @@ body {
 
 @media screen and (max-width: 700px) {
     #yt, #twitter, #github, #twitch, #steam, #reddit {
-        visibility: hidden;
+        display: none;
+    }
+    .footer {
+        text-align: center;
     }
 }
 
