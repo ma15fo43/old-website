@@ -298,6 +298,12 @@ body {
     margin-left: 5px;
 }
 
+@media screen and (max-width: 700px) {
+    #yt, #twitter, #github, #twitch, #steam, #reddit {
+        visibility: hidden;
+    }
+}
+
 .navbar .search-container {
     float: right;
 }
