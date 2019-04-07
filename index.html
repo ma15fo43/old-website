@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>My website</title>
+    <link rel="icon" href="./Assets/Icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -20,17 +21,17 @@
 
 
         <div class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About me</a>
+            <a class="active"">Home</a>
+            <a href=" #">About me</a>
             <a href="#">My projects</a>
-            <a href="#">Social media</a>
-            <input type="text" placeholder="Search.." style="float: right;
-                padding: 6px;
-                border: none;
-                margin-top: 8px;
-                margin-right: 16px;
-                font-size: 17px;">
+            <div class="search-container">
+                <form action="search.js" method="GET" action="https://ma15fo43.github.io">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
         </div>
+
 
         <!-- Slideshow container -->
         <div class="slideshow-container">
@@ -69,16 +70,18 @@
         </div>
 
         <div class="presentation">
-            <img src="./Assets/Icon (transparent).png" alt="logo" width="50%">
+            <img src="./Assets/Icon (transparent).png" alt="logo" width="150">
             <div class="container">
-                Mazz3015, the creator of this website. Also known as "ma15fo43" on the internet, I like programmation a
+                Mazz3015, the creator of this website. Also known as "ma15fo43" on the internet, I like programming a
                 lot, but also enjoy playing video games and designing things. <br> Have a great time on my site! :)
             </div>
         </div>
 
         <div class="footer">
-            <footer>Made with <i class="fas fa-heart"></i> by Mazz3015. All rights reserved (had to put that somewhere
-                :P)
+            <footer>Made with <i class="fas fa-heart" style="color: red;"></i> by Mazz3015. April 2019. <i
+                    class="fab fa-youtube" id="yt"></i> <i class="fab fa-twitter" id="twitter"></i><i
+                    class="fab fa-github" id="github"></i> <i class="fab fa-twitch" id="twitch"></i> <i
+                    class="fab fa-steam" id="steam"></i> <i class="fab fa-reddit" id="reddit"></i>
             </footer>
         </div>
     </div>
