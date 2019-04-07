@@ -60,6 +60,17 @@ body {
     color: black;
 }
 
+/* Column container */
+
+.row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+}
+
 /* Footer */
 
 .footer {
@@ -76,7 +87,6 @@ body {
         float: none;
         width: 100%;
     }
-
     .search-container {
         display: none;
     }
@@ -333,4 +343,13 @@ body {
     .navbar input[type=text] {
         border: 1px solid #ccc;
     }
+}
+
+.about {
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about h1 {
+    text-decoration: underline;
 }
