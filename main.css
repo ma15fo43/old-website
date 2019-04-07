@@ -60,17 +60,6 @@ body {
     color: black;
 }
 
-/* Column container */
-
-.row {
-    display: -ms-flexbox;
-    /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap;
-    /* IE10 */
-    flex-wrap: wrap;
-}
-
 /* Footer */
 
 .footer {
@@ -80,17 +69,9 @@ body {
     background: rgb(29, 28, 28);
 }
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-
-@media screen and (max-width: 700px) {
-    .row {
-        flex-direction: column;
-    }
-}
-
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     .navbar a {
         float: none;
         width: 100%;
@@ -302,7 +283,7 @@ body {
     margin-left: 5px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     #yt, #twitter, #github, #twitch, #steam, #reddit {
         display: none;
     }
