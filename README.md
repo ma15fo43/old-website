@@ -1,3 +1,3 @@
 # ma15fo43.github.io
-My personnal website.
+My personal website.
 Now redirecting to https://mazz.ml
