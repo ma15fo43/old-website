@@ -106,8 +106,8 @@ body {
 
 .picture {
     border-radius: 25px;
-    width: 30rem;
-    height: 15rem;
+    width: 80%;
+    height: auto;
 }
 
 .mainbox {
@@ -178,11 +178,6 @@ body {
         float: none;
         margin-left: 3px !important;
         margin-right: 3px !important;
-    }
-
-    .picture {
-        height: 11em;
-        width: 17em;
     }
 
     #dropdown {
