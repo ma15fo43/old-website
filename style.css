@@ -95,7 +95,7 @@ body {
     border-radius: 25px;
     float: none;
     margin: 3em auto auto auto;
-    width: 30%;
+    width: 40%;
     height: 10em;
     font-family: "Quicksand", sans-serif;
     color: white;
@@ -156,33 +156,10 @@ body {
     margin-top: 3em;
 }
 
-::-moz-selection {
-    color: #ff00bc;
-}
-
-::selection {
-    color: #ff00bc;
-}
-
-a:link {
-    color: orange;
-}
-
-a:visited {
-    color: darkorange;
-}
-
-a:hover {
-    color: #ff00bc;
-}
-
-a:active {
-    color: blue;
-}
 
 /* Make it responsive */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
     #navbar a #dropdown #dropdown-content a {
         float: none;
         display: block;
@@ -213,4 +190,28 @@ a:active {
     #icons {
         font-size: 45px;
     }
+}
+
+::-moz-selection {
+    color: #ff00bc;
+}
+
+::selection {
+    color: #ff00bc;
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: darkorange;
+}
+
+a:hover {
+    color: #ff00bc;
+}
+
+a:active {
+    color: blue;
 }
