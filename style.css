@@ -182,7 +182,7 @@ a:active {
 
 /* Make it responsive */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 300px) {
     #navbar a #dropdown #dropdown-content a {
         float: none;
         display: block;
