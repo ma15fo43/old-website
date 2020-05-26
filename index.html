@@ -1,22 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Lounge - Mazz</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Mazz' Lounge">
+        <meta name="keywords" content="Mazz3015,ma15fo43,scratch,mazz,mazzml,mazz.ml,mazzfun,mazz.fun">
+        <meta name="author" content="Mazz">
+        <meta name="theme-color" content="#FF5733">
+        <meta property="og:title" content="Mazz website" />
+        <meta property="og:url" content="https://ma15fo43.github.io" />
+        <meta property="og:image" content="https://avatars2.githubusercontent.com/u/37367577?s=460&u=56b3f0d26c3f93c562a272bd14932bcc3d4e3990&v=4" />
+        <meta property="og:description"
+            content="Learn more about Mazz/ma15fo43 in this new website, entirely redesigned." />
+        <meta property="og:site_name" content="Mazz' lounge" />
+        <meta property="og:type" content="website" />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@1,300&family=Quicksand&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="Assets/logo.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://kit.fontawesome.com/7e66d43f44.js" crossorigin="anonymous"></script>
+        <link href="css/hover-min.css" rel="stylesheet">
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="chrome">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" href="Assets/Icon.png" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <title>New website!</title>
-</head>
+    <body>
+        <div id="navbar">
+            <a id="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="#"><i class="fa fa-fw fa-user"></i> About me</a>
+            <a href="mailto:contact@mazz.fun"><i class="fa fa-fw fa-envelope"></i> Mail</a>
+            <div id="dropdown">
+                <button id="dropbtn" class="hvr-icon-hang"><i class="fas fa-briefcase"></i> Projects
+                <i class="fa fa-caret-down hvr-icon"></i>
+                </button>
+                <div id="dropdown-content">
+                    <a href="#">YT Downloader</a>
+                    <a href="#">Mango</a>
+                    <a href="#">Scratch</a>
+                </div>
+            </div>
+        </div>
 
-<body>
-    <div id="particles-js">
-        <h1 id="text">Hey.</h2>
-        <h2 id="text2">I have a new domain. <a href="https://www.mazz.ml">mazz.ml</a></h3>
-    </div>
-    <script src="particles.js"></script>
-    <script src="app.js"></script>
+        <div class="mainbox">
+            <h1 class="boxtext" style="font-family: 'DM Mono', monospace;">Mazz<span style="color: black;">#</span><span style="color: lightgrey;">0720</span></h1>
+            <i class="fab fa-youtube" id="icons" style="color: red"></i>
+            <i class="fab fa-twitter" id="icons" style="color: blue"></i>
+            <i class="fab fa-twitch" id="icons" style="color: purple"></i>
+            <i class="fab fa-github" id="icons" style="color: black"></i>
+            <i class="fab fa-steam" id="icons" style="color: black"></i>
+            <i class="fab fa-reddit" id="icons" style="color: #FE6400"></i>
+        </div>
+
+        <script src="script.js"></script>
+
+        <div class="box">
+            <h2 class="boxtext hvr-forward">Who am I?</h2>
+            <h4 class="boxtext hvr-bob" style="margin-top: -20px">Hey! Mazz there. I'm a French teen that loves code and generally IT. <br>More important: I'm a human! <br>You can <a href="Pages/about.html">click here</a> to know more things about me.</h3>
+        </div>
+
+        <div class="box" style="height: 24rem;">
+            <h2 class="boxtext hvr-skew">Discover my travels</h2>
+            <a href="Pages/travels"><img src="Assets/japan.jpg" alt="picture of japan" class="picture"></a>
+            <h5 class="boxtext" style="margin-top: -5px;">Click <a href="Pages/travels">here</a>, or on the picture!</h3>
+        </div>
+
+        <div class="footer">
+            <p>v3 on 05/24/2020 - made with <i class="fa fa-heart" style="color: red"></i></p>
+        </div>
+    </body>
 
 </html>
