@@ -105,7 +105,7 @@ body {
 }
 
 .picture {
-    border-radius: 25px;
+    border-radius: 10px;
     width: 80%;
     height: auto;
 }
@@ -130,13 +130,13 @@ body {
 
 #icons {
     transition: transform .2s;
-    font-size: 55px;
+    font-size: 40px;
     margin-top: 10px;
     padding: 7px;
 }
 
 #icons:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .boxtext {
@@ -161,7 +161,7 @@ body {
 
 /* Make it responsive */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     #navbar a #dropdown #dropdown-content a {
         float: none;
         display: block;
